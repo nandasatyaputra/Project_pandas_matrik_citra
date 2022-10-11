@@ -9,7 +9,7 @@ student_df2 = pd.DataFrame(df2)
 print("Before dropping column NA: \n", student_df2)
 
 # drop column with NaN
-student_df3 = student_df2.dropna(axis='coloms')
+student_df3 = student_df2.dropna(axis='columns')
 
 print("\nAfter dropping column NA: \n", student_df3)
 
@@ -36,4 +36,6 @@ data = {'satu': [1,1,1,1,1],
 df1 = pd.DataFrame(data, index=['a','b','c','d','e']);
 
 print(df1);
+
+
 
